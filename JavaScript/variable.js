@@ -3,7 +3,7 @@
 // use this for Valina Javascript.
 "use strict";
 
-// 2. Variable
+// 2. Variable (read / write)
 // let (added in ES6)
 {
   let name = "sol";
@@ -16,13 +16,19 @@
 // var hoisting (move, declaration from bottom to top)
 // has no block scope
 
-// 3. Contants
+// 3. Contant (read only)
+// use const whenever possible.
+// only use let if variable needs to change.
+const daysUnWeek = 7;
+const maxNumber = 5;
+
+// Note!
+// Immutable data types: primitive types, frozen objects (i.e. object.freeze())
+// Mutable data types: all objects by default are mutable in Js
 // favor immutable data type always for a few reasons:
 // - security
 // - thread safety
 // - reduce human mistakes
-const daysUnWeek = 7;
-const maxNumber = 5;
 
 // 4. Variable type
 // primitive, single item: number, string, boolean, null, undefined, symbol
