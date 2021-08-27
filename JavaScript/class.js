@@ -107,3 +107,10 @@ const rectangle = new Rectangle(20, 20, "blue");
 rectangle.draw();
 const triangle = new Triangle(20, 20, "red");
 triangle.draw();
+
+// 6. Class checking: instanceOf
+console.log(rectangle instanceof Rectangle)
+console.log(triangle instanceof Rectangle)
+console.log(triangle instanceof Triangle)
+console.log(triangle instanceof Shape)
+console.log(triangle instanceof Object)
