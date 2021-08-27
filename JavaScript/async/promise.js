@@ -60,7 +60,7 @@ getHen()
   // .then((hen) => getEgg(hen))
   // .then((egg) => cook(egg))
   // .then((meal) => console.log(meal));
-  // 조금 더 깔끔한 코
+  // 조금 더 깔끔한 코드
   .then(getEgg)
   .catch((error) => {
     return "🍞";
