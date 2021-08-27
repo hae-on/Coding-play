@@ -38,3 +38,4 @@ json = JSON.stringify(rabbit);
 const obj = JSON.parse(json);
 console.log(obj);
 rabbit.jump();
+// obj.jump() -> x
